@@ -1,0 +1,170 @@
+{
+  "rotation_rho06": [
+    {
+      "theta": 0,
+      "rho": 0.6,
+      "K": 6,
+      "d": 24,
+      "vector_power": 0.0555,
+      "scalar_power": 0.035
+    },
+    {
+      "theta": 15,
+      "rho": 0.6,
+      "K": 6,
+      "d": 24,
+      "vector_power": 0.0725,
+      "scalar_power": 0.032
+    },
+    {
+      "theta": 30,
+      "rho": 0.6,
+      "K": 6,
+      "d": 24,
+      "vector_power": 0.13,
+      "scalar_power": 0.0465
+    },
+    {
+      "theta": 60,
+      "rho": 0.6,
+      "K": 6,
+      "d": 24,
+      "vector_power": 0.5235,
+      "scalar_power": 0.2295
+    },
+    {
+      "theta": 90,
+      "rho": 0.6,
+      "K": 6,
+      "d": 24,
+      "vector_power": 0.922,
+      "scalar_power": 0.7675
+    }
+  ],
+  "rotation_rho00": [
+    {
+      "theta": 0,
+      "rho": 0.0,
+      "K": 6,
+      "d": 24,
+      "vector_power": 0.0495,
+      "scalar_power": 0.05
+    },
+    {
+      "theta": 15,
+      "rho": 0.0,
+      "K": 6,
+      "d": 24,
+      "vector_power": 0.0515,
+      "scalar_power": 0.054
+    },
+    {
+      "theta": 30,
+      "rho": 0.0,
+      "K": 6,
+      "d": 24,
+      "vector_power": 0.0815,
+      "scalar_power": 0.081
+    },
+    {
+      "theta": 60,
+      "rho": 0.0,
+      "K": 6,
+      "d": 24,
+      "vector_power": 0.1925,
+      "scalar_power": 0.241
+    },
+    {
+      "theta": 90,
+      "rho": 0.0,
+      "K": 6,
+      "d": 24,
+      "vector_power": 0.426,
+      "scalar_power": 0.7755
+    }
+  ],
+  "magnitude_rho06": [
+    {
+      "scale": 1.0,
+      "rho": 0.6,
+      "K": 6,
+      "d": 24,
+      "vector_power": 0.0555,
+      "scalar_power": 0.034
+    },
+    {
+      "scale": 1.5,
+      "rho": 0.6,
+      "K": 6,
+      "d": 24,
+      "vector_power": 0.113,
+      "scalar_power": 0.052
+    },
+    {
+      "scale": 2.0,
+      "rho": 0.6,
+      "K": 6,
+      "d": 24,
+      "vector_power": 0.5005,
+      "scalar_power": 0.2545
+    },
+    {
+      "scale": 3.0,
+      "rho": 0.6,
+      "K": 6,
+      "d": 24,
+      "vector_power": 1.0,
+      "scalar_power": 0.986
+    },
+    {
+      "scale": 5.0,
+      "rho": 0.6,
+      "K": 6,
+      "d": 24,
+      "vector_power": 1.0,
+      "scalar_power": 1.0
+    }
+  ],
+  "magnitude_rho00": [
+    {
+      "scale": 1.0,
+      "rho": 0.0,
+      "K": 6,
+      "d": 24,
+      "vector_power": 0.0455,
+      "scalar_power": 0.044
+    },
+    {
+      "scale": 1.5,
+      "rho": 0.0,
+      "K": 6,
+      "d": 24,
+      "vector_power": 0.0685,
+      "scalar_power": 0.0695
+    },
+    {
+      "scale": 2.0,
+      "rho": 0.0,
+      "K": 6,
+      "d": 24,
+      "vector_power": 0.1945,
+      "scalar_power": 0.28
+    },
+    {
+      "scale": 3.0,
+      "rho": 0.0,
+      "K": 6,
+      "d": 24,
+      "vector_power": 0.8365,
+      "scalar_power": 0.987
+    },
+    {
+      "scale": 5.0,
+      "rho": 0.0,
+      "K": 6,
+      "d": 24,
+      "vector_power": 1.0,
+      "scalar_power": 1.0
+    }
+  ]
+}

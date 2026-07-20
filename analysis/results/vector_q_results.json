@@ -1,0 +1,1624 @@
+{
+  "metadata": {
+    "timestamp": "2026-07-17T15:21:55.313632",
+    "n_loci": 7,
+    "source": "Pan-UKB v2 (tabix remote query)",
+    "phenotypic_correlations": "z-score correlation at common null variants (|z|<4, MAF>5%) on chr22",
+    "n_corr_variants": 9117
+  },
+  "results": [
+    {
+      "rsid": "rs2814778",
+      "gene": "ACKR1",
+      "description": "Duffy antigen \u2014 positive control for rotation",
+      "K": 6,
+      "d": 25,
+      "ancestries": [
+        "AFR",
+        "AMR",
+        "CSA",
+        "EAS",
+        "EUR",
+        "MID"
+      ],
+      "traits": [
+        "White blood cell count",
+        "Red blood cell count",
+        "Haemoglobin concentration",
+        "Haematocrit",
+        "Mean corpuscular volume",
+        "Mean corpuscular haemoglobin",
+        "Mean corpuscular haemoglobin concentration",
+        "Red blood cell distribution width",
+        "Platelet count",
+        "Platelet distribution width",
+        "Mean platelet volume",
+        "Platelet crit",
+        "Lymphocyte count",
+        "Monocyte count",
+        "Neutrophil count",
+        "Eosinophil count",
+        "Lymphocyte percentage",
+        "Monocyte percentage",
+        "Neutrophil percentage",
+        "Eosinophil percentage",
+        "Reticulocyte percentage",
+        "Reticulocyte count",
+        "Mean reticulocyte volume",
+        "Mean sphered cell volume",
+        "Immature reticulocyte fraction"
+      ],
+      "category": "concordant_significant",
+      "vector_Q_V": 561.631,
+      "vector_df": 125,
+      "vector_p": 0.0,
+      "vector_Q_V_diagonal": 549.101,
+      "sum_scalar_Q": 549.101,
+      "ratio_QV_over_sumQ": 1.023,
+      "n_scalar_significant": 5,
+      "scalar_results": {
+        "White blood cell count": {
+          "Q": 121.123,
+          "p": 0.0,
+          "I2": 0.959,
+          "significant": "True"
+        },
+        "Red blood cell count": {
+          "Q": 7.014,
+          "p": 0.2196326306140315,
+          "I2": 0.287,
+          "significant": "False"
+        },
+        "Haemoglobin concentration": {
+          "Q": 6.979,
+          "p": 0.2221707458430352,
+          "I2": 0.284,
+          "significant": "False"
+        },
+        "Haematocrit": {
+          "Q": 7.279,
+          "p": 0.20072652536116076,
+          "I2": 0.313,
+          "significant": "False"
+        },
+        "Mean corpuscular volume": {
+          "Q": 1.939,
+          "p": 0.8575311763585393,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Mean corpuscular haemoglobin": {
+          "Q": 1.619,
+          "p": 0.8989413621968197,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Mean corpuscular haemoglobin concentration": {
+          "Q": 2.407,
+          "p": 0.7905054314829367,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Red blood cell distribution width": {
+          "Q": 8.657,
+          "p": 0.12354649409972962,
+          "I2": 0.422,
+          "significant": "False"
+        },
+        "Platelet count": {
+          "Q": 7.829,
+          "p": 0.16588676844011196,
+          "I2": 0.361,
+          "significant": "False"
+        },
+        "Platelet distribution width": {
+          "Q": 5.811,
+          "p": 0.3250524939204975,
+          "I2": 0.14,
+          "significant": "False"
+        },
+        "Mean platelet volume": {
+          "Q": 3.415,
+          "p": 0.6362649976561845,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Platelet crit": {
+          "Q": 3.704,
+          "p": 0.5927680210780488,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Lymphocyte count": {
+          "Q": 11.802,
+          "p": 0.03760169933839874,
+          "I2": 0.576,
+          "significant": "False"
+        },
+        "Monocyte count": {
+          "Q": 22.349,
+          "p": 0.00044929791375059036,
+          "I2": 0.776,
+          "significant": "True"
+        },
+        "Neutrophil count": {
+          "Q": 159.159,
+          "p": 0.0,
+          "I2": 0.969,
+          "significant": "True"
+        },
+        "Eosinophil count": {
+          "Q": 7.964,
+          "p": 0.1582235734549231,
+          "I2": 0.372,
+          "significant": "False"
+        },
+        "Lymphocyte percentage": {
+          "Q": 57.604,
+          "p": 3.797029357599513e-11,
+          "I2": 0.913,
+          "significant": "True"
+        },
+        "Monocyte percentage": {
+          "Q": 12.77,
+          "p": 0.025630113693096646,
+          "I2": 0.608,
+          "significant": "False"
+        },
+        "Neutrophil percentage": {
+          "Q": 56.865,
+          "p": 5.3911763941982827e-11,
+          "I2": 0.912,
+          "significant": "True"
+        },
+        "Eosinophil percentage": {
+          "Q": 15.76,
+          "p": 0.0075641592781583444,
+          "I2": 0.683,
+          "significant": "False"
+        },
+        "Reticulocyte percentage": {
+          "Q": 5.249,
+          "p": 0.38626954231698996,
+          "I2": 0.047,
+          "significant": "False"
+        },
+        "Reticulocyte count": {
+          "Q": 3.636,
+          "p": 0.6029384214119952,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Mean reticulocyte volume": {
+          "Q": 6.584,
+          "p": 0.2534506970517657,
+          "I2": 0.241,
+          "significant": "False"
+        },
+        "Mean sphered cell volume": {
+          "Q": 5.338,
+          "p": 0.3760297898476235,
+          "I2": 0.063,
+          "significant": "False"
+        },
+        "Immature reticulocyte fraction": {
+          "Q": 6.244,
+          "p": 0.2831840145090627,
+          "I2": 0.199,
+          "significant": "False"
+        }
+      },
+      "theta_max": 97.2,
+      "theta_max_pair": "CSA-EAS",
+      "pairwise_rotations": {
+        "AFR-AMR": 23.78,
+        "AFR-CSA": 56.96,
+        "AFR-EAS": 84.7,
+        "AFR-EUR": 18.95,
+        "AFR-MID": 14.48,
+        "AMR-CSA": 59.55,
+        "AMR-EAS": 88.34,
+        "AMR-EUR": 24.15,
+        "AMR-MID": 25.15,
+        "CSA-EAS": 97.2,
+        "CSA-EUR": 61.98,
+        "CSA-MID": 52.01,
+        "EAS-EUR": 81.23,
+        "EAS-MID": 82.44,
+        "EUR-MID": 18.61
+      }
+    },
+    {
+      "rsid": "rs1354034",
+      "gene": "ARHGEF3",
+      "description": "Platelet count pleiotropic",
+      "K": 6,
+      "d": 25,
+      "ancestries": [
+        "AFR",
+        "AMR",
+        "CSA",
+        "EAS",
+        "EUR",
+        "MID"
+      ],
+      "traits": [
+        "White blood cell count",
+        "Red blood cell count",
+        "Haemoglobin concentration",
+        "Haematocrit",
+        "Mean corpuscular volume",
+        "Mean corpuscular haemoglobin",
+        "Mean corpuscular haemoglobin concentration",
+        "Red blood cell distribution width",
+        "Platelet count",
+        "Platelet distribution width",
+        "Mean platelet volume",
+        "Platelet crit",
+        "Lymphocyte count",
+        "Monocyte count",
+        "Neutrophil count",
+        "Eosinophil count",
+        "Lymphocyte percentage",
+        "Monocyte percentage",
+        "Neutrophil percentage",
+        "Eosinophil percentage",
+        "Reticulocyte percentage",
+        "Reticulocyte count",
+        "Mean reticulocyte volume",
+        "Mean sphered cell volume",
+        "Immature reticulocyte fraction"
+      ],
+      "category": "rotation_only",
+      "vector_Q_V": 416.589,
+      "vector_df": 125,
+      "vector_p": 0.0,
+      "vector_Q_V_diagonal": 130.755,
+      "sum_scalar_Q": 130.755,
+      "ratio_QV_over_sumQ": 3.186,
+      "n_scalar_significant": 0,
+      "scalar_results": {
+        "White blood cell count": {
+          "Q": 7.496,
+          "p": 0.18626973819852188,
+          "I2": 0.333,
+          "significant": "False"
+        },
+        "Red blood cell count": {
+          "Q": 2.926,
+          "p": 0.7113723355488398,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Haemoglobin concentration": {
+          "Q": 4.768,
+          "p": 0.4448729654952247,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Haematocrit": {
+          "Q": 2.1,
+          "p": 0.8351573224989575,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Mean corpuscular volume": {
+          "Q": 1.581,
+          "p": 0.9035749171513751,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Mean corpuscular haemoglobin": {
+          "Q": 3.74,
+          "p": 0.5874774224869018,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Mean corpuscular haemoglobin concentration": {
+          "Q": 7.031,
+          "p": 0.21831079752052318,
+          "I2": 0.289,
+          "significant": "False"
+        },
+        "Red blood cell distribution width": {
+          "Q": 11.731,
+          "p": 0.038667553758565454,
+          "I2": 0.574,
+          "significant": "False"
+        },
+        "Platelet count": {
+          "Q": 5.774,
+          "p": 0.32881939416148076,
+          "I2": 0.134,
+          "significant": "False"
+        },
+        "Platelet distribution width": {
+          "Q": 8.463,
+          "p": 0.13248568166366237,
+          "I2": 0.409,
+          "significant": "False"
+        },
+        "Mean platelet volume": {
+          "Q": 12.245,
+          "p": 0.03158667715975705,
+          "I2": 0.592,
+          "significant": "False"
+        },
+        "Platelet crit": {
+          "Q": 2.75,
+          "p": 0.7384077706629034,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Lymphocyte count": {
+          "Q": 2.82,
+          "p": 0.7276648241006612,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Monocyte count": {
+          "Q": 2.691,
+          "p": 0.7475685761348844,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Neutrophil count": {
+          "Q": 7.859,
+          "p": 0.16416126345587556,
+          "I2": 0.364,
+          "significant": "False"
+        },
+        "Eosinophil count": {
+          "Q": 1.607,
+          "p": 0.9004224161947538,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Lymphocyte percentage": {
+          "Q": 6.248,
+          "p": 0.28281228977971384,
+          "I2": 0.2,
+          "significant": "False"
+        },
+        "Monocyte percentage": {
+          "Q": 0.654,
+          "p": 0.9854026267060356,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Neutrophil percentage": {
+          "Q": 5.898,
+          "p": 0.3162638319911919,
+          "I2": 0.152,
+          "significant": "False"
+        },
+        "Eosinophil percentage": {
+          "Q": 1.282,
+          "p": 0.9368177820983334,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Reticulocyte percentage": {
+          "Q": 7.599,
+          "p": 0.1797436586176807,
+          "I2": 0.342,
+          "significant": "False"
+        },
+        "Reticulocyte count": {
+          "Q": 8.137,
+          "p": 0.14883520616083823,
+          "I2": 0.386,
+          "significant": "False"
+        },
+        "Mean reticulocyte volume": {
+          "Q": 11.165,
+          "p": 0.048212099866683955,
+          "I2": 0.552,
+          "significant": "False"
+        },
+        "Mean sphered cell volume": {
+          "Q": 1.476,
+          "p": 0.9157884746721846,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Immature reticulocyte fraction": {
+          "Q": 2.714,
+          "p": 0.7440121157818165,
+          "I2": 0,
+          "significant": "False"
+        }
+      },
+      "theta_max": 64.18,
+      "theta_max_pair": "AMR-MID",
+      "pairwise_rotations": {
+        "AFR-AMR": 43.95,
+        "AFR-CSA": 26.97,
+        "AFR-EAS": 55.04,
+        "AFR-EUR": 29.06,
+        "AFR-MID": 52.43,
+        "AMR-CSA": 47.84,
+        "AMR-EAS": 47.42,
+        "AMR-EUR": 48.13,
+        "AMR-MID": 64.18,
+        "CSA-EAS": 44.2,
+        "CSA-EUR": 9.98,
+        "CSA-MID": 36.3,
+        "EAS-EUR": 42.32,
+        "EAS-MID": 42.5,
+        "EUR-MID": 31.21
+      }
+    },
+    {
+      "rsid": "rs3184504",
+      "gene": "SH2B3",
+      "description": "Multi-blood-trait pleiotropic",
+      "K": 6,
+      "d": 25,
+      "ancestries": [
+        "AFR",
+        "AMR",
+        "CSA",
+        "EAS",
+        "EUR",
+        "MID"
+      ],
+      "traits": [
+        "White blood cell count",
+        "Red blood cell count",
+        "Haemoglobin concentration",
+        "Haematocrit",
+        "Mean corpuscular volume",
+        "Mean corpuscular haemoglobin",
+        "Mean corpuscular haemoglobin concentration",
+        "Red blood cell distribution width",
+        "Platelet count",
+        "Platelet distribution width",
+        "Mean platelet volume",
+        "Platelet crit",
+        "Lymphocyte count",
+        "Monocyte count",
+        "Neutrophil count",
+        "Eosinophil count",
+        "Lymphocyte percentage",
+        "Monocyte percentage",
+        "Neutrophil percentage",
+        "Eosinophil percentage",
+        "Reticulocyte percentage",
+        "Reticulocyte count",
+        "Mean reticulocyte volume",
+        "Mean sphered cell volume",
+        "Immature reticulocyte fraction"
+      ],
+      "category": "rotation_only",
+      "vector_Q_V": 199.841,
+      "vector_df": 125,
+      "vector_p": 2.4110492225282165e-05,
+      "vector_Q_V_diagonal": 148.435,
+      "sum_scalar_Q": 148.435,
+      "ratio_QV_over_sumQ": 1.346,
+      "n_scalar_significant": 0,
+      "scalar_results": {
+        "White blood cell count": {
+          "Q": 9.654,
+          "p": 0.0856660724351489,
+          "I2": 0.482,
+          "significant": "False"
+        },
+        "Red blood cell count": {
+          "Q": 10.475,
+          "p": 0.06283833785100235,
+          "I2": 0.523,
+          "significant": "False"
+        },
+        "Haemoglobin concentration": {
+          "Q": 11.922,
+          "p": 0.035875641568773986,
+          "I2": 0.581,
+          "significant": "False"
+        },
+        "Haematocrit": {
+          "Q": 16.445,
+          "p": 0.00568135768803868,
+          "I2": 0.696,
+          "significant": "False"
+        },
+        "Mean corpuscular volume": {
+          "Q": 0.529,
+          "p": 0.991033452758379,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Mean corpuscular haemoglobin": {
+          "Q": 1.103,
+          "p": 0.9538162370668646,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Mean corpuscular haemoglobin concentration": {
+          "Q": 3.06,
+          "p": 0.6907474598782527,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Red blood cell distribution width": {
+          "Q": 4.899,
+          "p": 0.4282742003828195,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Platelet count": {
+          "Q": 5.128,
+          "p": 0.40046256018477444,
+          "I2": 0.025,
+          "significant": "False"
+        },
+        "Platelet distribution width": {
+          "Q": 2.012,
+          "p": 0.8474339047975568,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Mean platelet volume": {
+          "Q": 9.151,
+          "p": 0.10317568822385126,
+          "I2": 0.454,
+          "significant": "False"
+        },
+        "Platelet crit": {
+          "Q": 1.934,
+          "p": 0.8582334763568824,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Lymphocyte count": {
+          "Q": 6.356,
+          "p": 0.273062720778084,
+          "I2": 0.213,
+          "significant": "False"
+        },
+        "Monocyte count": {
+          "Q": 2.219,
+          "p": 0.8180960037369465,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Neutrophil count": {
+          "Q": 11.287,
+          "p": 0.04598198320980362,
+          "I2": 0.557,
+          "significant": "False"
+        },
+        "Eosinophil count": {
+          "Q": 6.825,
+          "p": 0.23395052037418063,
+          "I2": 0.267,
+          "significant": "False"
+        },
+        "Lymphocyte percentage": {
+          "Q": 2.005,
+          "p": 0.8484433278561525,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Monocyte percentage": {
+          "Q": 5.754,
+          "p": 0.3309051809519966,
+          "I2": 0.131,
+          "significant": "False"
+        },
+        "Neutrophil percentage": {
+          "Q": 4.404,
+          "p": 0.49288670712245986,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Eosinophil percentage": {
+          "Q": 4.989,
+          "p": 0.4171785895566481,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Reticulocyte percentage": {
+          "Q": 6.675,
+          "p": 0.24591850806980498,
+          "I2": 0.251,
+          "significant": "False"
+        },
+        "Reticulocyte count": {
+          "Q": 8.304,
+          "p": 0.14023657056852534,
+          "I2": 0.398,
+          "significant": "False"
+        },
+        "Mean reticulocyte volume": {
+          "Q": 1.042,
+          "p": 0.9591179518857589,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Mean sphered cell volume": {
+          "Q": 2.134,
+          "p": 0.8303739049550687,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Immature reticulocyte fraction": {
+          "Q": 10.128,
+          "p": 0.07169920259382145,
+          "I2": 0.506,
+          "significant": "False"
+        }
+      },
+      "theta_max": 78.15,
+      "theta_max_pair": "AFR-EAS",
+      "pairwise_rotations": {
+        "AFR-AMR": 47.89,
+        "AFR-CSA": 61.3,
+        "AFR-EAS": 78.15,
+        "AFR-EUR": 65.11,
+        "AFR-MID": 69.83,
+        "AMR-CSA": 57.21,
+        "AMR-EAS": 63.98,
+        "AMR-EUR": 41.35,
+        "AMR-MID": 52.34,
+        "CSA-EAS": 48.45,
+        "CSA-EUR": 37.85,
+        "CSA-MID": 40.27,
+        "EAS-EUR": 47.32,
+        "EAS-MID": 66.17,
+        "EUR-MID": 30.84
+      }
+    },
+    {
+      "rsid": "rs2476601",
+      "gene": "PTPN22",
+      "description": "Autoimmune/blood pleiotropic",
+      "K": 6,
+      "d": 25,
+      "ancestries": [
+        "AFR",
+        "AMR",
+        "CSA",
+        "EAS",
+        "EUR",
+        "MID"
+      ],
+      "traits": [
+        "White blood cell count",
+        "Red blood cell count",
+        "Haemoglobin concentration",
+        "Haematocrit",
+        "Mean corpuscular volume",
+        "Mean corpuscular haemoglobin",
+        "Mean corpuscular haemoglobin concentration",
+        "Red blood cell distribution width",
+        "Platelet count",
+        "Platelet distribution width",
+        "Mean platelet volume",
+        "Platelet crit",
+        "Lymphocyte count",
+        "Monocyte count",
+        "Neutrophil count",
+        "Eosinophil count",
+        "Lymphocyte percentage",
+        "Monocyte percentage",
+        "Neutrophil percentage",
+        "Eosinophil percentage",
+        "Reticulocyte percentage",
+        "Reticulocyte count",
+        "Mean reticulocyte volume",
+        "Mean sphered cell volume",
+        "Immature reticulocyte fraction"
+      ],
+      "category": "rotation_only",
+      "vector_Q_V": 175.697,
+      "vector_df": 125,
+      "vector_p": 0.001900872079524274,
+      "vector_Q_V_diagonal": 122.498,
+      "sum_scalar_Q": 122.498,
+      "ratio_QV_over_sumQ": 1.434,
+      "n_scalar_significant": 0,
+      "scalar_results": {
+        "White blood cell count": {
+          "Q": 10.186,
+          "p": 0.07013511221616875,
+          "I2": 0.509,
+          "significant": "False"
+        },
+        "Red blood cell count": {
+          "Q": 10.496,
+          "p": 0.06233687774072061,
+          "I2": 0.524,
+          "significant": "False"
+        },
+        "Haemoglobin concentration": {
+          "Q": 8.751,
+          "p": 0.11943785075880387,
+          "I2": 0.429,
+          "significant": "False"
+        },
+        "Haematocrit": {
+          "Q": 6.764,
+          "p": 0.23881278197601608,
+          "I2": 0.261,
+          "significant": "False"
+        },
+        "Mean corpuscular volume": {
+          "Q": 2.359,
+          "p": 0.7976030891109264,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Mean corpuscular haemoglobin": {
+          "Q": 2.563,
+          "p": 0.7669375644983173,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Mean corpuscular haemoglobin concentration": {
+          "Q": 1.945,
+          "p": 0.856662874138279,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Red blood cell distribution width": {
+          "Q": 2.426,
+          "p": 0.7876020329619,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Platelet count": {
+          "Q": 2.001,
+          "p": 0.849074572304704,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Platelet distribution width": {
+          "Q": 2.866,
+          "p": 0.720585001286201,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Mean platelet volume": {
+          "Q": 1.927,
+          "p": 0.8591778881496017,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Platelet crit": {
+          "Q": 3.338,
+          "p": 0.648094698893725,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Lymphocyte count": {
+          "Q": 6.884,
+          "p": 0.22941175459999452,
+          "I2": 0.274,
+          "significant": "False"
+        },
+        "Monocyte count": {
+          "Q": 2.186,
+          "p": 0.8228883537937284,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Neutrophil count": {
+          "Q": 12.328,
+          "p": 0.030558948220042348,
+          "I2": 0.594,
+          "significant": "False"
+        },
+        "Eosinophil count": {
+          "Q": 4.312,
+          "p": 0.5054000139246908,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Lymphocyte percentage": {
+          "Q": 8.096,
+          "p": 0.15101008387581705,
+          "I2": 0.382,
+          "significant": "False"
+        },
+        "Monocyte percentage": {
+          "Q": 4.077,
+          "p": 0.5383800172735365,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Neutrophil percentage": {
+          "Q": 8.731,
+          "p": 0.12029346733580526,
+          "I2": 0.427,
+          "significant": "False"
+        },
+        "Eosinophil percentage": {
+          "Q": 3.083,
+          "p": 0.6871987592880973,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Reticulocyte percentage": {
+          "Q": 3.949,
+          "p": 0.5567283186883698,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Reticulocyte count": {
+          "Q": 3.878,
+          "p": 0.5671471358969106,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Mean reticulocyte volume": {
+          "Q": 4.794,
+          "p": 0.44152040766971135,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Mean sphered cell volume": {
+          "Q": 4.219,
+          "p": 0.5182833726620772,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Immature reticulocyte fraction": {
+          "Q": 0.339,
+          "p": 0.9968396491280118,
+          "I2": 0,
+          "significant": "False"
+        }
+      },
+      "theta_max": 123.37,
+      "theta_max_pair": "AFR-CSA",
+      "pairwise_rotations": {
+        "AFR-AMR": 103.35,
+        "AFR-CSA": 123.37,
+        "AFR-EAS": 116.12,
+        "AFR-EUR": 107.17,
+        "AFR-MID": 107.21,
+        "AMR-CSA": 63.05,
+        "AMR-EAS": 73.15,
+        "AMR-EUR": 99.72,
+        "AMR-MID": 85.94,
+        "CSA-EAS": 35.28,
+        "CSA-EUR": 59.88,
+        "CSA-MID": 84.32,
+        "EAS-EUR": 61.07,
+        "EAS-MID": 103.99,
+        "EUR-MID": 65.91
+      }
+    },
+    {
+      "rsid": "rs855791",
+      "gene": "TMPRSS6",
+      "description": "Iron metabolism/blood",
+      "K": 6,
+      "d": 25,
+      "ancestries": [
+        "AFR",
+        "AMR",
+        "CSA",
+        "EAS",
+        "EUR",
+        "MID"
+      ],
+      "traits": [
+        "White blood cell count",
+        "Red blood cell count",
+        "Haemoglobin concentration",
+        "Haematocrit",
+        "Mean corpuscular volume",
+        "Mean corpuscular haemoglobin",
+        "Mean corpuscular haemoglobin concentration",
+        "Red blood cell distribution width",
+        "Platelet count",
+        "Platelet distribution width",
+        "Mean platelet volume",
+        "Platelet crit",
+        "Lymphocyte count",
+        "Monocyte count",
+        "Neutrophil count",
+        "Eosinophil count",
+        "Lymphocyte percentage",
+        "Monocyte percentage",
+        "Neutrophil percentage",
+        "Eosinophil percentage",
+        "Reticulocyte percentage",
+        "Reticulocyte count",
+        "Mean reticulocyte volume",
+        "Mean sphered cell volume",
+        "Immature reticulocyte fraction"
+      ],
+      "category": "concordant_significant",
+      "vector_Q_V": 575.706,
+      "vector_df": 125,
+      "vector_p": 0.0,
+      "vector_Q_V_diagonal": 276.168,
+      "sum_scalar_Q": 276.168,
+      "ratio_QV_over_sumQ": 2.085,
+      "n_scalar_significant": 3,
+      "scalar_results": {
+        "White blood cell count": {
+          "Q": 16.687,
+          "p": 0.005133889470012365,
+          "I2": 0.7,
+          "significant": "False"
+        },
+        "Red blood cell count": {
+          "Q": 4.343,
+          "p": 0.5011513245672778,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Haemoglobin concentration": {
+          "Q": 14.226,
+          "p": 0.014237339232042179,
+          "I2": 0.649,
+          "significant": "False"
+        },
+        "Haematocrit": {
+          "Q": 7.163,
+          "p": 0.20882730368189173,
+          "I2": 0.302,
+          "significant": "False"
+        },
+        "Mean corpuscular volume": {
+          "Q": 33.57,
+          "p": 2.8993679171973596e-06,
+          "I2": 0.851,
+          "significant": "True"
+        },
+        "Mean corpuscular haemoglobin": {
+          "Q": 52.311,
+          "p": 4.65795402249114e-10,
+          "I2": 0.904,
+          "significant": "True"
+        },
+        "Mean corpuscular haemoglobin concentration": {
+          "Q": 11.057,
+          "p": 0.05025535171297324,
+          "I2": 0.548,
+          "significant": "False"
+        },
+        "Red blood cell distribution width": {
+          "Q": 31.364,
+          "p": 7.936849730549866e-06,
+          "I2": 0.841,
+          "significant": "True"
+        },
+        "Platelet count": {
+          "Q": 2.269,
+          "p": 0.8107729676447467,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Platelet distribution width": {
+          "Q": 1.966,
+          "p": 0.8538428466990776,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Mean platelet volume": {
+          "Q": 1.276,
+          "p": 0.9373378078273779,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Platelet crit": {
+          "Q": 8.545,
+          "p": 0.1286506736760138,
+          "I2": 0.415,
+          "significant": "False"
+        },
+        "Lymphocyte count": {
+          "Q": 8.032,
+          "p": 0.15448571544306244,
+          "I2": 0.377,
+          "significant": "False"
+        },
+        "Monocyte count": {
+          "Q": 3.324,
+          "p": 0.6501593316171423,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Neutrophil count": {
+          "Q": 13.707,
+          "p": 0.017583159031909434,
+          "I2": 0.635,
+          "significant": "False"
+        },
+        "Eosinophil count": {
+          "Q": 3.412,
+          "p": 0.636682919403019,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Lymphocyte percentage": {
+          "Q": 2.622,
+          "p": 0.7579612095787138,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Monocyte percentage": {
+          "Q": 6.469,
+          "p": 0.26324363146779906,
+          "I2": 0.227,
+          "significant": "False"
+        },
+        "Neutrophil percentage": {
+          "Q": 4.509,
+          "p": 0.47870032345163227,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Eosinophil percentage": {
+          "Q": 2.809,
+          "p": 0.7294801773888255,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Reticulocyte percentage": {
+          "Q": 14.071,
+          "p": 0.01516717613802443,
+          "I2": 0.645,
+          "significant": "False"
+        },
+        "Reticulocyte count": {
+          "Q": 11.867,
+          "p": 0.03665318254476524,
+          "I2": 0.579,
+          "significant": "False"
+        },
+        "Mean reticulocyte volume": {
+          "Q": 5.686,
+          "p": 0.338019251913943,
+          "I2": 0.121,
+          "significant": "False"
+        },
+        "Mean sphered cell volume": {
+          "Q": 6.362,
+          "p": 0.27260491921796115,
+          "I2": 0.214,
+          "significant": "False"
+        },
+        "Immature reticulocyte fraction": {
+          "Q": 8.522,
+          "p": 0.12970998278347223,
+          "I2": 0.413,
+          "significant": "False"
+        }
+      },
+      "theta_max": 74.95,
+      "theta_max_pair": "AFR-CSA",
+      "pairwise_rotations": {
+        "AFR-AMR": 64.28,
+        "AFR-CSA": 74.95,
+        "AFR-EAS": 65.27,
+        "AFR-EUR": 66.08,
+        "AFR-MID": 55.16,
+        "AMR-CSA": 38.41,
+        "AMR-EAS": 44.68,
+        "AMR-EUR": 32.95,
+        "AMR-MID": 33.53,
+        "CSA-EAS": 36.96,
+        "CSA-EUR": 13.28,
+        "CSA-MID": 61.58,
+        "EAS-EUR": 32.72,
+        "EAS-MID": 65.39,
+        "EUR-MID": 54.75
+      }
+    },
+    {
+      "rsid": "rs9349379",
+      "gene": "PHACTR1",
+      "description": "CAD + blood pressure",
+      "K": 6,
+      "d": 25,
+      "ancestries": [
+        "AFR",
+        "AMR",
+        "CSA",
+        "EAS",
+        "EUR",
+        "MID"
+      ],
+      "traits": [
+        "White blood cell count",
+        "Red blood cell count",
+        "Haemoglobin concentration",
+        "Haematocrit",
+        "Mean corpuscular volume",
+        "Mean corpuscular haemoglobin",
+        "Mean corpuscular haemoglobin concentration",
+        "Red blood cell distribution width",
+        "Platelet count",
+        "Platelet distribution width",
+        "Mean platelet volume",
+        "Platelet crit",
+        "Lymphocyte count",
+        "Monocyte count",
+        "Neutrophil count",
+        "Eosinophil count",
+        "Lymphocyte percentage",
+        "Monocyte percentage",
+        "Neutrophil percentage",
+        "Eosinophil percentage",
+        "Reticulocyte percentage",
+        "Reticulocyte count",
+        "Mean reticulocyte volume",
+        "Mean sphered cell volume",
+        "Immature reticulocyte fraction"
+      ],
+      "category": "rotation_only",
+      "vector_Q_V": 242.624,
+      "vector_df": 125,
+      "vector_p": 1.493655976680941e-09,
+      "vector_Q_V_diagonal": 112.23,
+      "sum_scalar_Q": 112.23,
+      "ratio_QV_over_sumQ": 2.162,
+      "n_scalar_significant": 0,
+      "scalar_results": {
+        "White blood cell count": {
+          "Q": 1.859,
+          "p": 0.8682295664376302,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Red blood cell count": {
+          "Q": 1.578,
+          "p": 0.903851654466553,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Haemoglobin concentration": {
+          "Q": 3.574,
+          "p": 0.6122014247614279,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Haematocrit": {
+          "Q": 2.923,
+          "p": 0.711893323834472,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Mean corpuscular volume": {
+          "Q": 6.37,
+          "p": 0.27190507568914246,
+          "I2": 0.215,
+          "significant": "False"
+        },
+        "Mean corpuscular haemoglobin": {
+          "Q": 4.336,
+          "p": 0.5020850844933576,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Mean corpuscular haemoglobin concentration": {
+          "Q": 1.375,
+          "p": 0.9269861541399306,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Red blood cell distribution width": {
+          "Q": 7.531,
+          "p": 0.18402239582039837,
+          "I2": 0.336,
+          "significant": "False"
+        },
+        "Platelet count": {
+          "Q": 1.663,
+          "p": 0.8935024911662997,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Platelet distribution width": {
+          "Q": 3.074,
+          "p": 0.6885172697241494,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Mean platelet volume": {
+          "Q": 3.226,
+          "p": 0.6651579739904896,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Platelet crit": {
+          "Q": 6.071,
+          "p": 0.29935639342720166,
+          "I2": 0.176,
+          "significant": "False"
+        },
+        "Lymphocyte count": {
+          "Q": 2.865,
+          "p": 0.7207481357463265,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Monocyte count": {
+          "Q": 4.849,
+          "p": 0.43460016768786747,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Neutrophil count": {
+          "Q": 4.578,
+          "p": 0.4695182165858849,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Eosinophil count": {
+          "Q": 5.185,
+          "p": 0.393769931002234,
+          "I2": 0.036,
+          "significant": "False"
+        },
+        "Lymphocyte percentage": {
+          "Q": 5.502,
+          "p": 0.35776966358779494,
+          "I2": 0.091,
+          "significant": "False"
+        },
+        "Monocyte percentage": {
+          "Q": 8.121,
+          "p": 0.14969618349721636,
+          "I2": 0.384,
+          "significant": "False"
+        },
+        "Neutrophil percentage": {
+          "Q": 7.22,
+          "p": 0.20480294646106634,
+          "I2": 0.307,
+          "significant": "False"
+        },
+        "Eosinophil percentage": {
+          "Q": 6.587,
+          "p": 0.25323569389326206,
+          "I2": 0.241,
+          "significant": "False"
+        },
+        "Reticulocyte percentage": {
+          "Q": 5.773,
+          "p": 0.3289193337156968,
+          "I2": 0.134,
+          "significant": "False"
+        },
+        "Reticulocyte count": {
+          "Q": 6.319,
+          "p": 0.27639741541740315,
+          "I2": 0.209,
+          "significant": "False"
+        },
+        "Mean reticulocyte volume": {
+          "Q": 2.503,
+          "p": 0.7761018839756655,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Mean sphered cell volume": {
+          "Q": 4.723,
+          "p": 0.45067058565958296,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Immature reticulocyte fraction": {
+          "Q": 4.424,
+          "p": 0.49007702774666106,
+          "I2": 0,
+          "significant": "False"
+        }
+      },
+      "theta_max": 105.69,
+      "theta_max_pair": "CSA-MID",
+      "pairwise_rotations": {
+        "AFR-AMR": 72.59,
+        "AFR-CSA": 102.92,
+        "AFR-EAS": 65.39,
+        "AFR-EUR": 95.11,
+        "AFR-MID": 80.47,
+        "AMR-CSA": 82.57,
+        "AMR-EAS": 84.97,
+        "AMR-EUR": 73.89,
+        "AMR-MID": 97.67,
+        "CSA-EAS": 81.09,
+        "CSA-EUR": 78.45,
+        "CSA-MID": 105.69,
+        "EAS-EUR": 80.18,
+        "EAS-MID": 91.43,
+        "EUR-MID": 75.81
+      }
+    },
+    {
+      "rsid": "rs11065987",
+      "gene": "BRAP",
+      "description": "Blood trait pleiotropic",
+      "K": 6,
+      "d": 25,
+      "ancestries": [
+        "AFR",
+        "AMR",
+        "CSA",
+        "EAS",
+        "EUR",
+        "MID"
+      ],
+      "traits": [
+        "White blood cell count",
+        "Red blood cell count",
+        "Haemoglobin concentration",
+        "Haematocrit",
+        "Mean corpuscular volume",
+        "Mean corpuscular haemoglobin",
+        "Mean corpuscular haemoglobin concentration",
+        "Red blood cell distribution width",
+        "Platelet count",
+        "Platelet distribution width",
+        "Mean platelet volume",
+        "Platelet crit",
+        "Lymphocyte count",
+        "Monocyte count",
+        "Neutrophil count",
+        "Eosinophil count",
+        "Lymphocyte percentage",
+        "Monocyte percentage",
+        "Neutrophil percentage",
+        "Eosinophil percentage",
+        "Reticulocyte percentage",
+        "Reticulocyte count",
+        "Mean reticulocyte volume",
+        "Mean sphered cell volume",
+        "Immature reticulocyte fraction"
+      ],
+      "category": "rotation_only",
+      "vector_Q_V": 190.93,
+      "vector_df": 125,
+      "vector_p": 0.00013448556891137997,
+      "vector_Q_V_diagonal": 137.08,
+      "sum_scalar_Q": 137.08,
+      "ratio_QV_over_sumQ": 1.393,
+      "n_scalar_significant": 0,
+      "scalar_results": {
+        "White blood cell count": {
+          "Q": 7.199,
+          "p": 0.20625979912479442,
+          "I2": 0.305,
+          "significant": "False"
+        },
+        "Red blood cell count": {
+          "Q": 5.07,
+          "p": 0.40743739851659466,
+          "I2": 0.014,
+          "significant": "False"
+        },
+        "Haemoglobin concentration": {
+          "Q": 9.089,
+          "p": 0.10555854651059848,
+          "I2": 0.45,
+          "significant": "False"
+        },
+        "Haematocrit": {
+          "Q": 11.9,
+          "p": 0.036187532412063184,
+          "I2": 0.58,
+          "significant": "False"
+        },
+        "Mean corpuscular volume": {
+          "Q": 1.06,
+          "p": 0.9575751947718727,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Mean corpuscular haemoglobin": {
+          "Q": 1.386,
+          "p": 0.925880998046464,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Mean corpuscular haemoglobin concentration": {
+          "Q": 4.684,
+          "p": 0.455681449821671,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Red blood cell distribution width": {
+          "Q": 7.558,
+          "p": 0.1823192874578593,
+          "I2": 0.338,
+          "significant": "False"
+        },
+        "Platelet count": {
+          "Q": 6.878,
+          "p": 0.22990290052240736,
+          "I2": 0.273,
+          "significant": "False"
+        },
+        "Platelet distribution width": {
+          "Q": 4.987,
+          "p": 0.41746861185408224,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Mean platelet volume": {
+          "Q": 9.854,
+          "p": 0.07947511212905956,
+          "I2": 0.493,
+          "significant": "False"
+        },
+        "Platelet crit": {
+          "Q": 1.805,
+          "p": 0.8753549858080064,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Lymphocyte count": {
+          "Q": 5.816,
+          "p": 0.3245807379492309,
+          "I2": 0.14,
+          "significant": "False"
+        },
+        "Monocyte count": {
+          "Q": 2.805,
+          "p": 0.7299433011753529,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Neutrophil count": {
+          "Q": 8.848,
+          "p": 0.11529107186482479,
+          "I2": 0.435,
+          "significant": "False"
+        },
+        "Eosinophil count": {
+          "Q": 5.261,
+          "p": 0.3848647817571913,
+          "I2": 0.05,
+          "significant": "False"
+        },
+        "Lymphocyte percentage": {
+          "Q": 2.169,
+          "p": 0.8253255419352328,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Monocyte percentage": {
+          "Q": 6.356,
+          "p": 0.27310127430126285,
+          "I2": 0.213,
+          "significant": "False"
+        },
+        "Neutrophil percentage": {
+          "Q": 4.937,
+          "p": 0.4235622831764798,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Eosinophil percentage": {
+          "Q": 4.304,
+          "p": 0.5065815085413081,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Reticulocyte percentage": {
+          "Q": 6.101,
+          "p": 0.29653039381223567,
+          "I2": 0.18,
+          "significant": "False"
+        },
+        "Reticulocyte count": {
+          "Q": 6.733,
+          "p": 0.24126391738751285,
+          "I2": 0.257,
+          "significant": "False"
+        },
+        "Mean reticulocyte volume": {
+          "Q": 1.137,
+          "p": 0.9507688869764287,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Mean sphered cell volume": {
+          "Q": 2.992,
+          "p": 0.7012024116943941,
+          "I2": 0,
+          "significant": "False"
+        },
+        "Immature reticulocyte fraction": {
+          "Q": 8.152,
+          "p": 0.1480632326383532,
+          "I2": 0.387,
+          "significant": "False"
+        }
+      },
+      "theta_max": 86.2,
+      "theta_max_pair": "AFR-EAS",
+      "pairwise_rotations": {
+        "AFR-AMR": 65.52,
+        "AFR-CSA": 75.69,
+        "AFR-EAS": 86.2,
+        "AFR-EUR": 75.96,
+        "AFR-MID": 68.04,
+        "AMR-CSA": 46.57,
+        "AMR-EAS": 62.11,
+        "AMR-EUR": 36.3,
+        "AMR-MID": 46.55,
+        "CSA-EAS": 50.56,
+        "CSA-EUR": 36.96,
+        "CSA-MID": 49.26,
+        "EAS-EUR": 51.43,
+        "EAS-MID": 81.26,
+        "EUR-MID": 38.31
+      }
+    }
+  ],
+  "prediction_tests": {
+    "H_V1": {
+      "prediction": "ACKR1: vector Q_V significant (p<0.001) AND theta_max > 30 degrees",
+      "Q_V": 561.631,
+      "Q_V_p": 0.0,
+      "theta_max": 97.2,
+      "theta_max_pair": "CSA-EAS",
+      "pass": "True"
+    },
+    "H_V2": {
+      "prediction": ">= 5% of heterogeneous loci are rotation-only",
+      "n_het_loci": 7,
+      "n_rotation_only": 5,
+      "rotation_only_names": [
+        "rs1354034(ARHGEF3)",
+        "rs3184504(SH2B3)",
+        "rs2476601(PTPN22)",
+        "rs9349379(PHACTR1)",
+        "rs11065987(BRAP)"
+      ],
+      "pct": 71.4,
+      "pass": true
+    },
+    "H_V3": {
+      "prediction": "Median Q_V/sum(Q_scalar) > 1.0 among significant loci",
+      "median_ratio": 1.434,
+      "all_ratios": [
+        1.023,
+        1.346,
+        1.393,
+        1.434,
+        2.085,
+        2.162,
+        3.186
+      ],
+      "n_significant": 7,
+      "pass": true
+    },
+    "H_V5": {
+      "prediction": "ACKR1: neutrophil+monocyte scalar Q sig, >= 5 traits non-sig",
+      "n_scalar_sig": 5,
+      "sig_traits": [
+        "White blood cell count",
+        "Monocyte count",
+        "Neutrophil count",
+        "Lymphocyte percentage",
+        "Neutrophil percentage"
+      ],
+      "n_scalar_nonsig": 20,
+      "pass": true
+    },
+    "H_V6": {
+      "prediction": "Component-only < 2% of heterogeneous loci",
+      "n_component_only": 0,
+      "component_only_names": [],
+      "n_het_total": 7,
+      "pct": 0.0,
+      "pass": true
+    }
+  },
+  "summary": {
+    "categories": {
+      "concordant_significant": 2,
+      "rotation_only": 5
+    }
+  }
+}

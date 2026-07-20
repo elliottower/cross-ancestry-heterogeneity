@@ -1,0 +1,205 @@
+{
+  "locus": "ACKR1/Duffy (rs2814778)",
+  "chrom": "1",
+  "pos": 159174683,
+  "K": 6,
+  "d": 24,
+  "ancestries": [
+    "AFR",
+    "AMR",
+    "CSA",
+    "EAS",
+    "EUR",
+    "MID"
+  ],
+  "traits": [
+    "White blood cell count",
+    "Red blood cell count",
+    "Haemoglobin concentration",
+    "Haematocrit",
+    "Mean corpuscular volume",
+    "Mean corpuscular haemoglobin",
+    "Mean corpuscular haemoglobin concentration",
+    "Red blood cell distribution width",
+    "Platelet count",
+    "Platelet distribution width",
+    "Mean platelet volume",
+    "Platelet crit",
+    "Lymphocyte count",
+    "Monocyte count",
+    "Neutrophil count",
+    "Eosinophil count",
+    "Lymphocyte percentage",
+    "Monocyte percentage",
+    "Neutrophil percentage",
+    "Eosinophil percentage",
+    "Reticulocyte percentage",
+    "Reticulocyte count",
+    "Mean reticulocyte volume",
+    "Mean sphered cell volume"
+  ],
+  "vector_Q_V_full": 555.387,
+  "vector_Q_V_diagonal": 542.857,
+  "vector_df": 120,
+  "vector_p_full": 0.0,
+  "vector_p_diagonal": 0.0,
+  "ratio_full_over_diagonal": 1.023,
+  "n_scalar_significant": 5,
+  "significant_traits": [
+    "White blood cell count",
+    "Monocyte count",
+    "Neutrophil count",
+    "Lymphocyte percentage",
+    "Neutrophil percentage"
+  ],
+  "bonferroni_threshold": 0.0020833333333333333,
+  "category": "concordant_heterogeneous",
+  "scalar_results": {
+    "White blood cell count": {
+      "Q": 121.1,
+      "df": 5,
+      "p": 0.0,
+      "significant": true
+    },
+    "Red blood cell count": {
+      "Q": 7.0,
+      "df": 5,
+      "p": 0.2196326306140315,
+      "significant": false
+    },
+    "Haemoglobin concentration": {
+      "Q": 7.0,
+      "df": 5,
+      "p": 0.2221707458430352,
+      "significant": false
+    },
+    "Haematocrit": {
+      "Q": 7.3,
+      "df": 5,
+      "p": 0.20072652536116076,
+      "significant": false
+    },
+    "Mean corpuscular volume": {
+      "Q": 1.9,
+      "df": 5,
+      "p": 0.8575311763585393,
+      "significant": false
+    },
+    "Mean corpuscular haemoglobin": {
+      "Q": 1.6,
+      "df": 5,
+      "p": 0.8989413621968197,
+      "significant": false
+    },
+    "Mean corpuscular haemoglobin concentration": {
+      "Q": 2.4,
+      "df": 5,
+      "p": 0.7905054314829367,
+      "significant": false
+    },
+    "Red blood cell distribution width": {
+      "Q": 8.7,
+      "df": 5,
+      "p": 0.12354649409972962,
+      "significant": false
+    },
+    "Platelet count": {
+      "Q": 7.8,
+      "df": 5,
+      "p": 0.16588676844011196,
+      "significant": false
+    },
+    "Platelet distribution width": {
+      "Q": 5.8,
+      "df": 5,
+      "p": 0.3250524939204975,
+      "significant": false
+    },
+    "Mean platelet volume": {
+      "Q": 3.4,
+      "df": 5,
+      "p": 0.6362649976561845,
+      "significant": false
+    },
+    "Platelet crit": {
+      "Q": 3.7,
+      "df": 5,
+      "p": 0.5927680210780488,
+      "significant": false
+    },
+    "Lymphocyte count": {
+      "Q": 11.8,
+      "df": 5,
+      "p": 0.03760169933839874,
+      "significant": false
+    },
+    "Monocyte count": {
+      "Q": 22.3,
+      "df": 5,
+      "p": 0.00044929791375059036,
+      "significant": true
+    },
+    "Neutrophil count": {
+      "Q": 159.2,
+      "df": 5,
+      "p": 0.0,
+      "significant": true
+    },
+    "Eosinophil count": {
+      "Q": 8.0,
+      "df": 5,
+      "p": 0.1582235734549231,
+      "significant": false
+    },
+    "Lymphocyte percentage": {
+      "Q": 57.6,
+      "df": 5,
+      "p": 3.797029357599513e-11,
+      "significant": true
+    },
+    "Monocyte percentage": {
+      "Q": 12.8,
+      "df": 5,
+      "p": 0.025630113693096646,
+      "significant": false
+    },
+    "Neutrophil percentage": {
+      "Q": 56.9,
+      "df": 5,
+      "p": 5.3911763941982827e-11,
+      "significant": true
+    },
+    "Eosinophil percentage": {
+      "Q": 15.8,
+      "df": 5,
+      "p": 0.0075641592781583444,
+      "significant": false
+    },
+    "Reticulocyte percentage": {
+      "Q": 5.2,
+      "df": 5,
+      "p": 0.38626954231698996,
+      "significant": false
+    },
+    "Reticulocyte count": {
+      "Q": 3.6,
+      "df": 5,
+      "p": 0.6029384214119952,
+      "significant": false
+    },
+    "Mean reticulocyte volume": {
+      "Q": 6.6,
+      "df": 5,
+      "p": 0.2534506970517657,
+      "significant": false
+    },
+    "Mean sphered cell volume": {
+      "Q": 5.3,
+      "df": 5,
+      "p": 0.3760297898476235,
+      "significant": false
+    }
+  },
+  "timestamp": "2026-07-20T03:46:32.364623",
+  "method": "24-trait genome-wide methodology with estimated EUR correlation matrix"
+}
