@@ -1,6 +1,6 @@
 # Pre-registration: Robustness of the multivariate-only heterogeneity claim
 
-**Status: DRAFT — not frozen.**
+**Status:** DRAFT — not frozen.
 
 Extension of the 2026-07-17 registration (`analysis/PREREGISTRATION.md`). That
 registration governs discovery (H_V1–H_V6, H_GW1–H_GW6); its outcomes exist on disk and
