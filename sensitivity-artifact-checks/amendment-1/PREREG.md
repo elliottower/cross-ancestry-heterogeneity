@@ -1,6 +1,8 @@
 # Amendment 1: evaluation set under the current Pan-UKB release
 
-**Status:** DRAFT — not frozen.
+**Status:** FROZEN at `10fbfba26adc`
+**Plan sha256:** `dae8e549a02acd54ab730c2623c7774ad323f9f7c9d69f644b92b97c6980bdf0`
+**Frozen:** 2026-08-16
 
 Amendment to the registration frozen at `4955185ed63b` (sha256 `4594b705b27fd880…`,
 `sensitivity-artifact-checks/PREREG.md`). The parent's G1 gate failed on coverage and its
@@ -64,4 +66,5 @@ decide which word to use: `nothing run`, `no results seen`, `results not opened`
 
 ```
 2026-08-16  created                              results seen
+2026-08-16  frozen at 10fbfba26adc                nothing run
 ```
