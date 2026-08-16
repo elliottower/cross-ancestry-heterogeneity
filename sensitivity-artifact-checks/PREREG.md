@@ -154,4 +154,5 @@ decide which word to use: `nothing run`, `no results seen`, `results not opened`
 2026-08-16  frozen at 4955185ed63b                nothing run
 2026-08-16  erratum: analysis plan step 4 'H_R6 null' should read 'H_R7 null' (renumbering typo found post-freeze)  nothing run
 2026-08-16  reviewer note: credible-set membership in H_R6 is a soft proxy for index-variant causality; residual tagging ambiguity to be stated in Limitations  nothing run
+2026-08-16  G1 outcome: coverage FAIL (2303/2567 rebuilt; current Pan-UKB release lacks 262 registered loci uniformly across trait files; 2 more lack a v2 ancestry entry); value fidelity 99.87% within 1% on rebuilt loci (3 loci exceed 1%, worst rel diff 0.473). All predictions void per G1; amendment 1 drafted for review. No H_R hypothesis outcome computed.  results seen
 ```
