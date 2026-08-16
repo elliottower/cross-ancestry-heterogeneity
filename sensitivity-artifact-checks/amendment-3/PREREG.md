@@ -90,4 +90,5 @@ decide which word to use: `nothing run`, `no results seen`, `results not opened`
 ```
 2026-08-16  created                              results seen
 2026-08-16  frozen at 67bf3060f5fd                nothing run
+2026-08-16  Tier-1 outcomes: H_R4' holds (221 sig >= gate, M=70.6%, calibration 0.051); H_R5' holds (147 sig, M=67.4%); H_R7' holds (117.0 vs null95 111.0); H_R8 holds (M24 = 333/506 = 65.8%, becomes headline). Channels: H_R3' fails (known), H_R4'/H_R5'/H_R6 hold -> exactly one channel fails -> verdict SURVIVES WITH CAVEAT re-earned on primary panel. Descriptive: 14-trait spectrum cond=189, lambda_min=0.017; diagonal recalibrated to 53 sig (2.3%). Exploratory 13-trait (no WBC): M=65.4%, cond=22.6.  results seen
 ```

@@ -1,0 +1,70 @@
+{
+ "metadata": {
+  "timestamp": "2026-08-16T22:44:51.937415+00:00",
+  "amendment": "67bf3060f5fd"
+ },
+ "spectrum_14": {
+  "condition_number": 189.25398405152367,
+  "lambda_min": 0.016877781331301637,
+  "n_below_0.05": 1,
+  "eigenvalues": [
+   0.01688,
+   0.1116,
+   0.18492,
+   0.37334,
+   0.4489,
+   0.5363,
+   0.68758,
+   0.7817,
+   0.89085,
+   1.13459,
+   1.39025,
+   1.90113,
+   2.34778,
+   3.19419
+  ]
+ },
+ "H_R8": {
+  "n_h_r1_significant": 506,
+  "n_multivariate_only_24": 333,
+  "M24": 0.6581,
+  "outcome": "holds"
+ },
+ "H_R4p": {
+  "n_loci": 2242,
+  "n_fdr_significant": 221,
+  "n_multivariate_only": 156,
+  "M": 0.7059,
+  "calibration": {
+   "n_draws": 24000,
+   "reject_rate": 0.05142,
+   "pass": true
+  },
+  "outcome": "holds"
+ },
+ "H_R5p": {
+  "n_loci": 2300,
+  "n_fdr_significant": 147,
+  "n_multivariate_only": 99,
+  "M": 0.6735,
+  "outcome": "holds"
+ },
+ "H_R7p": {
+  "observed_median": 117.0,
+  "null_95th": 110.99,
+  "null_mean": 109.58,
+  "n_loci": 506,
+  "outcome": "holds"
+ },
+ "diagonal_recalibrated": {
+  "n_fdr_significant": 53,
+  "pct": 2.3
+ },
+ "exploratory_13": {
+  "n_loci": 2303,
+  "n_fdr_significant": 462,
+  "n_multivariate_only": 302,
+  "M": 0.6537,
+  "condition_number": 22.63380289747839
+ }
+}
