@@ -1,6 +1,8 @@
 # Amendment 3: revision analyses on the primary panel
 
-**Status:** DRAFT — not frozen.
+**Status:** FROZEN at `67bf3060f5fd`
+**Plan sha256:** `709a5435bae0eeb1d55673c4647f4b897e119f8dde77c4a307cfedbb1a5f3694`
+**Frozen:** 2026-08-16
 
 Amendment to the chain 4955185ed63b → 10fbfba26adc → c4eb0b684a38. A three-referee
 review of the v8 manuscript (record: `sensitivity-artifact-checks/reviews/simulated_round1.md`)
@@ -87,4 +89,5 @@ decide which word to use: `nothing run`, `no results seen`, `results not opened`
 
 ```
 2026-08-16  created                              results seen
+2026-08-16  frozen at 67bf3060f5fd                nothing run
 ```
