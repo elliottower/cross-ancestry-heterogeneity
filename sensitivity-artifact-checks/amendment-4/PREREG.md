@@ -1,6 +1,8 @@
 # Amendment 4: resolving the resolvable limitations
 
-**Status:** DRAFT — not frozen.
+**Status:** FROZEN at `9fbed73f34cf`
+**Plan sha256:** `b7cc3db59a7e90719fa28a7488e2384ddec9386b59a6558b8dcfcda6262e2989`
+**Frozen:** 2026-08-16
 
 Amendment to the chain 4955185ed63b → 10fbfba26adc → c4eb0b684a38 → 67bf3060f5fd. Three
 of the manuscript's stated or planned limitations are resolvable with data in hand: the
@@ -85,4 +87,5 @@ decide which word to use: `nothing run`, `no results seen`, `results not opened`
 
 ```
 2026-08-16  created                              results seen
+2026-08-16  frozen at 9fbed73f34cf                nothing run
 ```
