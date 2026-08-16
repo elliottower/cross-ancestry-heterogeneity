@@ -1,6 +1,8 @@
 # Pre-registration: Robustness of the multivariate-only heterogeneity claim
 
-**Status:** DRAFT — not frozen.
+**Status:** FROZEN at `4955185ed63b`
+**Plan sha256:** `4594b705b27fd880c363a28b5443f67be43bab6e9f496015912153048ef52f94`
+**Frozen:** 2026-08-16
 
 Extension of the 2026-07-17 registration (`analysis/PREREGISTRATION.md`). That
 registration governs discovery (H_V1–H_V6, H_GW1–H_GW6); its outcomes exist on disk and
@@ -149,4 +151,7 @@ decide which word to use: `nothing run`, `no results seen`, `results not opened`
 2026-08-15  created                              nothing run
 2026-08-15  rewritten in house format (H_R*, verdict table) before freeze   nothing run
 2026-08-15  external review: added M* bands and H_R6 LD-tagging check; strengthening outcome renumbered H_R7   nothing run
+2026-08-16  frozen at 4955185ed63b                nothing run
+2026-08-16  erratum: analysis plan step 4 'H_R6 null' should read 'H_R7 null' (renumbering typo found post-freeze)  nothing run
+2026-08-16  reviewer note: credible-set membership in H_R6 is a soft proxy for index-variant causality; residual tagging ambiguity to be stated in Limitations  nothing run
 ```
