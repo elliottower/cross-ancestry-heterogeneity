@@ -88,4 +88,5 @@ decide which word to use: `nothing run`, `no results seen`, `results not opened`
 ```
 2026-08-16  created                              results seen
 2026-08-16  frozen at 9fbed73f34cf                nothing run
+2026-08-16  H_R10 FAILS: per-ancestry shrunk covariance (lambdas 0.70-0.76), calibrated (0.053, in band), gives 100 significant loci (4.3%) with M24 = 23.0% — far below the 50% criterion. H_R11 FAILS: fitted scale factors well below 1 (AFR mean 0.187, EAS 0.518, CSA 0.626, MID 0.545, AMR 0.739); rescaled analysis: 21 significant, M24 = 38.1%, absorbed fraction 0.267. Per the frozen consequence clause the verdict is DOES NOT SURVIVE; co-finding framing with the multivariate-only share reported as a range across specifications. H_R9 still running.  results seen
 ```

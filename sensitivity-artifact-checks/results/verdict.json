@@ -1,6 +1,6 @@
 {
  "metadata": {
-  "timestamp": "2026-08-16T16:34:20.909172+00:00",
+  "timestamp": "2026-08-16T17:11:57.859126+00:00",
   "parent": "4955185ed63b",
   "amendment": "10fbfba26adc"
  },
@@ -65,7 +65,7 @@
    "outcome": "holds"
   }
  },
- "verdict": "NOT CLASSIFIED BY TABLE (registration gap)",
+ "verdict": "SURVIVES WITH CAVEAT",
  "M_star": 0.664,
- "band": null
+ "band": "substantial correction"
 }

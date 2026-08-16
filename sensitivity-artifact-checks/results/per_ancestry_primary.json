@@ -1,0 +1,59 @@
+{
+ "metadata": {
+  "timestamp": "2026-08-16T23:35:11.887645+00:00",
+  "amendment": "9fbed73f34cf"
+ },
+ "H_R10": {
+  "n_fdr_significant": 100,
+  "n_multivariate_only_24": 23,
+  "M24": 0.23,
+  "calibration": {
+   "n_draws": 24000,
+   "reject_rate": 0.05254,
+   "pass": true
+  },
+  "shrinkage": {
+   "EUR": 1.0,
+   "AFR": 0.762,
+   "CSA": 0.722,
+   "EAS": 0.697,
+   "MID": 0.723,
+   "AMR": 0.715
+  },
+  "outcome": "fails"
+ },
+ "H_R11": {
+  "n_fdr_significant": 21,
+  "n_multivariate_only_24": 8,
+  "M24": 0.381,
+  "outcome": "fails",
+  "absorbed_fraction_at_h10_sig": 0.2674,
+  "scale_factors": {
+   "AFR": {
+    "mean": 0.187,
+    "min": 0.077,
+    "max": 0.376
+   },
+   "AMR": {
+    "mean": 0.739,
+    "min": 0.572,
+    "max": 1.44
+   },
+   "CSA": {
+    "mean": 0.626,
+    "min": 0.494,
+    "max": 0.788
+   },
+   "EAS": {
+    "mean": 0.518,
+    "min": 0.295,
+    "max": 0.685
+   },
+   "MID": {
+    "mean": 0.545,
+    "min": 0.381,
+    "max": 0.84
+   }
+  }
+ }
+}

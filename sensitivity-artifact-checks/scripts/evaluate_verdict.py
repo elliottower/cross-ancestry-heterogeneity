@@ -108,6 +108,11 @@ def main():
     elif holds["H_R1"] and holds["H_R2"] and holds["H_R5"] and holds["H_R3"] \
             and hold_or_unres("H_R4") and hold_or_unres("H_R6"):
         verdict = "SURVIVES, STRENGTHENED" if holds["H_R7"] else "SURVIVES"
+    elif holds["H_R1"] and unres["H_R2"] and holds["H_R5"] and holds["H_R3"] \
+            and hold_or_unres("H_R4") and hold_or_unres("H_R6"):
+        # Amendment 2 (frozen): unresolvable H_R2 with contrary exploratory
+        # recalibration assigns SURVIVES WITH CAVEAT (correlation-structure dependence).
+        verdict = "SURVIVES WITH CAVEAT"
     elif holds["H_R1"] and holds["H_R2"] and (
             channel_fails == 1 or o["H_R4"] == "fails"):
         verdict = "SURVIVES WITH CAVEAT"
