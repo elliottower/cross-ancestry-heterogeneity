@@ -1,6 +1,8 @@
 # Amendment 2: verdict assignment for an unresolvable H_R2
 
-**Status:** DRAFT — not frozen.
+**Status:** FROZEN at `c4eb0b684a38`
+**Plan sha256:** `52cb4ab632dc60a175739846afa029f49a5c10dbdd5921d4209876f14b071258`
+**Frozen:** 2026-08-16
 
 Amendment to the registration frozen at `4955185ed63b` and amendment 1 at
 `10fbfba26adc`. The verdict table's SURVIVES rows require H_R2 to hold and do not cover
@@ -32,4 +34,5 @@ decide which word to use: `nothing run`, `no results seen`, `results not opened`
 
 ```
 2026-08-16  created                              results seen
+2026-08-16  frozen at c4eb0b684a38                nothing run
 ```
