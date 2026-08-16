@@ -1,0 +1,27 @@
+{
+ "analysis": "EXPLORATORY (not registered): Satterthwaite-calibrated rank-truncated Q_V",
+ "method": "moment-matched null pooled by K from 60 bootstrap draps/locus; c~1.0, nu ~ k(K-2)",
+ "null_params": {
+  "K6": {
+   "c": 1.002,
+   "nu": 47.9
+  },
+  "K5": {
+   "c": 1.016,
+   "nu": 35.5
+  },
+  "K4": {
+   "c": 0.997,
+   "nu": 24.2
+  },
+  "K3": {
+   "c": 0.991,
+   "nu": 12.1
+  }
+ },
+ "n_significant": 49,
+ "n_loci": 2303,
+ "n_multivariate_only": 8,
+ "M": 0.1633,
+ "reading": "calibrated truncation does not corroborate the non-redundant-panel result; signal concentrates in low-eigenvalue contrast directions"
+}

@@ -67,4 +67,5 @@ decide which word to use: `nothing run`, `no results seen`, `results not opened`
 ```
 2026-08-16  created                              results seen
 2026-08-16  frozen at 10fbfba26adc                nothing run
+2026-08-16  Registered outcomes: H_R1 holds (506/2303 sig, M=66.4%, G2-calibrated); H_R2 unresolvable (rank-truncated chi2_60 reference voided by G2, reject rate 0.003); H_R3 holds (chr1 shift 0.2pt, AFR shift 5.3pt on full panel); H_R4 holds (2014 sig non-EUR, M=93.7%); H_R5 holds (M=93.9%); H_R6 holds (653 qualifying, 145 sig, M=65.5%); H_R7 holds (median theta_max 115.5 vs null95 109.0). Verdict table unclassified: H_R2 unresolvable is not covered by the SURVIVES rows. M*=66.4% (substantial-correction band if a surviving verdict is assigned). Exploratory: Satterthwaite-calibrated truncation gives 49 sig, M=16.3%; nonredundant under AFR rho gives 148 sig, M=37.2%.  results seen
 ```

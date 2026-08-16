@@ -1,0 +1,71 @@
+{
+ "metadata": {
+  "timestamp": "2026-08-16T16:34:20.909172+00:00",
+  "parent": "4955185ed63b",
+  "amendment": "10fbfba26adc"
+ },
+ "hypotheses": {
+  "H_R1": {
+   "variant": "nonredundant",
+   "M": 0.664,
+   "n_significant": 506,
+   "g2_calibrated": true,
+   "outcome": "holds"
+  },
+  "H_R2": {
+   "variant": "rank_truncated",
+   "M": 0.0,
+   "n_significant": 6,
+   "g2_calibrated": false,
+   "outcome": "unresolvable (G2 void)"
+  },
+  "H_R4": {
+   "variant": "non_eur",
+   "M": 0.9369,
+   "n_significant": 2014,
+   "g2_calibrated": true,
+   "outcome": "holds"
+  },
+  "H_R5": {
+   "variant": "no_discovery",
+   "M": 0.9389,
+   "n_significant": 1832,
+   "g2_calibrated": true,
+   "outcome": "holds"
+  },
+  "H_R3": {
+   "baseline_M_pct": 88.61,
+   "arms": {
+    "chr1_EUR": {
+     "M": 88.81,
+     "shift_points": 0.2
+    },
+    "chr22_AFR": {
+     "M": 83.32,
+     "shift_points": 5.29
+    }
+   },
+   "g2_calibrated": true,
+   "outcome": "holds"
+  },
+  "H_R6": {
+   "n_qualifying": 653,
+   "n_significant": 145,
+   "M": 0.6552,
+   "g2_calibrated": true,
+   "outcome": "holds"
+  },
+  "H_R7": {
+   "observed_median_theta_max": 115.52,
+   "null_median_mean": 107.74,
+   "null_95th_percentile": 108.95,
+   "n_loci": 506,
+   "n_reps": 500,
+   "pass": true,
+   "outcome": "holds"
+  }
+ },
+ "verdict": "NOT CLASSIFIED BY TABLE (registration gap)",
+ "M_star": 0.664,
+ "band": null
+}

@@ -1,0 +1,48 @@
+{
+ "metadata": {
+  "timestamp": "2026-08-16T16:33:02.069206+00:00",
+  "reps_calib": 40,
+  "reps_theta": 500,
+  "k_rank": 12
+ },
+ "G2": {
+  "full": {
+   "n_draws": 92120,
+   "reject_rate": 0.05047,
+   "pass": true
+  },
+  "nonredundant": {
+   "n_draws": 92120,
+   "reject_rate": 0.04933,
+   "pass": true
+  },
+  "rank_truncated": {
+   "n_draws": 92120,
+   "reject_rate": 0.00303,
+   "pass": false
+  },
+  "non_eur": {
+   "n_draws": 89680,
+   "reject_rate": 0.0513,
+   "pass": true
+  },
+  "no_discovery": {
+   "n_draws": 92120,
+   "reject_rate": 0.04846,
+   "pass": true
+  },
+  "diagonal": {
+   "n_draws": 92120,
+   "reject_rate": 0.13919,
+   "pass": false
+  }
+ },
+ "H_R7": {
+  "observed_median_theta_max": 115.52,
+  "null_median_mean": 107.74,
+  "null_95th_percentile": 108.95,
+  "n_loci": 506,
+  "n_reps": 500,
+  "pass": true
+ }
+}
