@@ -35,4 +35,5 @@ decide which word to use: `nothing run`, `no results seen`, `results not opened`
 ```
 2026-08-16  created                              results seen
 2026-08-16  frozen at c4eb0b684a38                nothing run
+2026-08-16  Verdict stamped: SURVIVES WITH CAVEAT; M*=66.4%, substantial-correction band. Caveat: surviving signal magnitude depends on the assumed cross-trait correlation structure.  results seen
 ```
