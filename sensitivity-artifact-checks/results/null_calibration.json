@@ -23,5 +23,65 @@
   "0.05": 0.13987,
   "0.01": 0.04995,
   "0.001": 0.01272
+ },
+ "verification_2026-08-17": {
+  "fresh_gls_reimplementation": {
+   "chr1_159175494_C_T": {
+    "fresh_Q": 162.012,
+    "stored_v2_Q": 162.012,
+    "rel_diff": 1.4e-07
+   },
+   "chr10_10037366_C_T": {
+    "fresh_Q": 214.657,
+    "stored_v2_Q": 214.657,
+    "rel_diff": 2.2e-06
+   }
+  },
+  "shrunk_matrix_spectra_14t": {
+   "AFR": {
+    "lambda_min": 0.0149,
+    "cond": 201.0
+   },
+   "CSA": {
+    "lambda_min": 0.0174,
+    "cond": 175.7
+   },
+   "EAS": {
+    "lambda_min": 0.0136,
+    "cond": 223.7
+   },
+   "MID": {
+    "lambda_min": 0.0127,
+    "cond": 221.5
+   },
+   "AMR": {
+    "lambda_min": 0.0142,
+    "cond": 194.6
+   }
+  },
+  "maf_audit": {
+   "null_sample_median_eur_maf": 0.0015,
+   "analysis_loci_median_eur_maf": 0.2403,
+   "stratified_reject_at_0.05": {
+    "maf_lt_1pct": {
+     "n": 430,
+     "panel24": 0.867,
+     "panel14": 0.384,
+     "panel14_per_ancestry": 0.214
+    },
+    "maf_1_5pct": {
+     "n": 230,
+     "panel24": 0.965,
+     "panel14": 0.304,
+     "panel14_per_ancestry": 0.083
+    },
+    "maf_ge_5pct": {
+     "n": 441,
+     "panel24": 0.973,
+     "panel14": 0.286,
+     "panel14_per_ancestry": 0.098
+    }
+   }
+  }
  }
 }
